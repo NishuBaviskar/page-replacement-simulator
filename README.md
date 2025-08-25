@@ -2,7 +2,7 @@
 
 A production-ready web application built with React, Vite, and Tailwind CSS to simulate, visualize, and compare various page replacement algorithms (FIFO, LRU, Optimal).
 
-**[➡️ View Live Demo](https://your-vercel-deployment-url.vercel.app/)** <!-- Replace with your actual Vercel URL after deployment -->
+**[➡️ View Live Demo]([https://your-vercel-deployment-url.vercel.app/)**](https://page-replacement-simulator-gamma.vercel.app/) <!-- Replace with your actual Vercel URL after deployment -->
 
 ![Screenshot of the Simulator](./public/screenshot.png) <!-- Optional: Add a screenshot of your app to the public folder -->
 
