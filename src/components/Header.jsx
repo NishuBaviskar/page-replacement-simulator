@@ -18,7 +18,7 @@ const Header = ({ theme, toggleTheme, onTheoryClick, onExport }) => {
           animate={{ x: 0, opacity: 1 }}
           className="flex items-center gap-1 sm:gap-2"
         >
-          <a href="https://github.com/your-repo" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full hover:bg-muted dark:hover:bg-dark-muted" aria-label="GitHub Repository">
+          <a href="https://github.com/NishuBaviskar" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full hover:bg-muted dark:hover:bg-dark-muted" aria-label="GitHub Repository">
             <GithubIcon size={20} />
           </a>
           <button onClick={onExport} className="p-2 rounded-full hover:bg-muted dark:hover:bg-dark-muted" aria-label="Export Results">
