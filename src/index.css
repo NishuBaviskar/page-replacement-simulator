@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+     :root {
+        /* Define CSS variables for light theme, used by Recharts */
+        --color-destructive: #ef4444;
+        --color-accent: #10b981;
+        --color-border: #e2e8f0;
+        --color-card: #ffffff;
+        --color-foreground: #0f172a;
+    }
+    html.dark {
+        /* Define CSS variables for dark theme, used by Recharts */
+        --color-destructive: #f87171;
+        --color-accent: #34d399;
+        --color-border: #334155;
+        --color-card: #1e293b;
+        --color-foreground: #e2e8f0;
+    }
+}
+
+
+/* Print-specific styles */
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    .no-print {
+        display: none !important;
+    }
+    .print-container {
+        @apply !p-0;
+    }
+    .print-card {
+        @apply !shadow-none !border !border-gray-300;
+    }
+    .print-header {
+        @apply !sticky !top-0 !bg-white;
+    }
+}
